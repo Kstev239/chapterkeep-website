@@ -23,7 +23,7 @@
 <p class="intro">This policy explains which personal data Chapterkeep processes, for which purposes, on which legal basis, and what rights you have.</p>
 <aside class="summary">
 <h2>The key points</h2>
-<ul><li>We only use your books, notes and characters to provide the app to you. We do not sell them, do not analyze them and do not use them for advertising.</li><li>They are stored on your device and on servers in the EU.</li><li>When you search for a book, only the search term or the ISBN goes to Open Library, not your account.</li><li>No usage analytics, no advertising, no tracking.</li><li>You can delete your account with all of its data in the app at any time.</li></ul>
+<ul><li>We only use your books, notes and characters to provide the app to you. We do not sell them, do not analyze them and do not use them for advertising.</li><li>They are stored on your device and on servers in the EU.</li><li>When you search for a book, only the search term or the ISBN goes to Open Library, not your account.</li><li>Usage analytics only with your consent, crash reports can be turned off at any time. No advertising.</li><li>You can delete your account with all of its data in the app at any time.</li></ul>
 <p class="note">The summary gives you an overview. The following sections are binding.</p>
 </aside>
 <nav class="toc">
@@ -37,13 +37,15 @@
 <li><a href="#section-6">Camera and photos (ISBN scan, quotes)</a></li>
 <li><a href="#section-7">Voice notes (speech recognition)</a></li>
 <li><a href="#section-8">Chapterkeep Premium and export</a></li>
-<li><a href="#section-9">Website (chapterkeep.de)</a></li>
-<li><a href="#section-10">Contact by email</a></li>
-<li><a href="#section-11">Feedback in the app</a></li>
-<li><a href="#section-12">Retention and deletion</a></li>
-<li><a href="#section-13">Sharing of data</a></li>
-<li><a href="#section-14">Your rights</a></li>
-<li><a href="#section-15">Changes</a></li>
+<li><a href="#section-9">Usage analytics (Google Firebase Analytics)</a></li>
+<li><a href="#section-10">Crash reports (Google Firebase Crashlytics)</a></li>
+<li><a href="#section-11">Website (chapterkeep.de)</a></li>
+<li><a href="#section-12">Contact by email</a></li>
+<li><a href="#section-13">Feedback in the app</a></li>
+<li><a href="#section-14">Retention and deletion</a></li>
+<li><a href="#section-15">Sharing of data</a></li>
+<li><a href="#section-16">Your rights</a></li>
+<li><a href="#section-17">Changes</a></li>
 </ol>
 </nav>
 <section id="section-1">
@@ -101,40 +103,54 @@ Germany<br>
 <p>The export of a book (PDF or Markdown) is created by the app on your device. Where you share or save the file afterwards is up to you; the terms of the chosen app or service apply.</p>
 </section>
 <section id="section-9">
-<h2>9. Website (chapterkeep.de)</h2>
+<h2>9. Usage analytics (Google Firebase Analytics)</h2>
+<p>Only if you agree, we use Google Firebase Analytics to record how the app is used, in order to improve it. We record:</p>
+<ul><li>usage events, e.g. "book added", "note added", "quote added", "book finished", "sign-in", "Premium purchased", and the screens you open, with technical details such as fiction or nonfiction, the type of a lexicon entry, the duration of a reading session or the format of an export</li><li>a pseudonymous identifier of the app installation and your account ID</li><li>device and app information (device model, operating system, app version, language) and your approximate location (country, region), derived from your IP address</li></ul>
+<p>We never record the titles and authors of your books, your notes, quotes, lexicon entries, search terms or feedback messages. The data is not used for advertising.</p>
+<p>The provider is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. Data may be transferred to Google LLC in the USA; Google is certified under the EU-U.S. Data Privacy Framework. Event data is deleted after 2 months.</p>
+<p>The legal basis is your consent (Art. 6(1)(a) GDPR, Section 25(1) TDDDG). Until you agree, the collection is disabled. You can withdraw your consent at any time with effect for the future in the settings under "Privacy"; this also deletes the analytics data on your device.</p>
+</section>
+<section id="section-10">
+<h2>10. Crash reports (Google Firebase Crashlytics)</h2>
+<p>So that we can detect and fix bugs quickly, the app sends a report to Google Firebase Crashlytics when it crashes or a technical error occurs. It contains:</p>
+<ul><li>the error message and code location</li><li>device model, operating system, app version and time</li><li>a pseudonymous identifier of the app installation and your account ID</li><li>the names of the most recent actions (as in the previous section, without content)</li></ul>
+<p>Provider and data transfer as in the previous section. Reports are deleted after 90 days. The legal basis is our legitimate interest in a stable app without bugs (Art. 6(1)(f) GDPR). You can object at any time by turning off crash reports in the settings under "Privacy"; reports that have not been sent yet are then discarded.</p>
+</section>
+<section id="section-11">
+<h2>11. Website (chapterkeep.de)</h2>
 <p>Our website chapterkeep.de is provided through GitHub Pages by GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. When you visit it, GitHub processes technically necessary data such as your IP address, the date and time of the request and information about your browser and operating system, in order to deliver the pages and protect them against attacks, and stores it temporarily in server logs. The legal basis is our legitimate interest in a secure and working website (Art. 6(1)(f) GDPR). GitHub is certified under the EU-U.S. Data Privacy Framework.</p>
 <p>The website sets no cookies, uses no tracking and loads no content from other servers.</p>
 </section>
-<section id="section-10">
-<h2>10. Contact by email</h2>
+<section id="section-12">
+<h2>12. Contact by email</h2>
 <p>When you email us, we process your email address and the content of your message to answer your request. The legal basis is the performance of the user agreement if your request concerns the use of the app (Art. 6(1)(b) GDPR), otherwise our legitimate interest in answering your request (Art. 6(1)(f) GDPR). We delete your message once your request has been resolved and no statutory retention obligations apply.</p>
 <p>Our mailbox is operated by Zoho Corporation B.V., Beneluxlaan 4B, 3527 HT Utrecht, Netherlands, as our processor (Art. 28 GDPR). The emails are stored in data centers in the EU.</p>
 </section>
-<section id="section-11">
-<h2>11. Feedback in the app</h2>
+<section id="section-13">
+<h2>13. Feedback in the app</h2>
 <p>If you send us a message in the app under Settings → Feedback (feedback, wishes, bug reports), we process:</p>
 <ul><li>the chosen category and the text of your message</li><li>your account ID, so we can assign the message to your account</li><li>app version, operating system and app language, so we can reproduce bugs</li><li>whether you agreed to be contacted by email about it</li></ul>
 <p>We use this information to improve the app and fix bugs. The legal basis is our legitimate interest in developing the app further (Art. 6(1)(f) GDPR). Please don't include passwords in your message.</p>
 <p>Only if you agree, we may contact you about your message at your account's email address (Art. 6(1)(a) GDPR). You can withdraw this consent at any time by emailing us; the section "Contact by email" then applies to our reply.</p>
 <p>The messages are stored in our backend at Supabase (like your library). We delete them once we no longer need them to improve the app, at the latest when your account is deleted.</p>
 </section>
-<section id="section-12">
-<h2>12. Retention and deletion</h2>
+<section id="section-14">
+<h2>14. Retention and deletion</h2>
 <p>We store your account and library data as long as your account exists. You can delete your account at any time in the app under Settings → Profile → Delete account, or request the deletion by email. All your data on our servers, at RevenueCat and on the device is then deleted, unless statutory retention obligations apply; data at Apple or Google is not affected. A guest account can no longer be accessed after signing out or deleting the app.</p>
 </section>
-<section id="section-13">
-<h2>13. Sharing of data</h2>
-<p>We only share your data with the service providers named in this policy, as far as this is necessary for the respective purposes, or if we are legally obliged to do so. We do not sell data and do not use it for advertising. The app contains no usage analytics and no tracking. There is no automated decision-making, including profiling (Art. 22 GDPR).</p>
+<section id="section-15">
+<h2>15. Sharing of data</h2>
+<p>We only share your data with the service providers named in this policy, as far as this is necessary for the respective purposes, or if we are legally obliged to do so. We do not sell data and do not use it for advertising. There is no automated decision-making, including profiling (Art. 22 GDPR).</p>
 </section>
-<section id="section-14">
-<h2>14. Your rights</h2>
+<section id="section-16">
+<h2>16. Your rights</h2>
 <p>You have the right to:</p>
 <ul><li>access your data (Art. 15 GDPR)</li><li>rectification of inaccurate data (Art. 16 GDPR)</li><li>erasure (Art. 17 GDPR)</li><li>restriction of processing (Art. 18 GDPR)</li><li>data portability (Art. 20 GDPR)</li><li>withdraw any consent given, with effect for the future (Art. 7(3) GDPR)</li><li>lodge a complaint with a data protection supervisory authority (Art. 77 GDPR)</li></ul>
 <div class="notice"><h3>Right to object (Art. 21 GDPR)</h3><p>Where we process data on the basis of legitimate interests (Art. 6(1)(f) GDPR), you can object at any time on grounds relating to your particular situation.</p></div>
 <p>To exercise your rights, contact the email address given in section 1.</p>
 </section>
-<section id="section-15">
-<h2>15. Changes</h2>
+<section id="section-17">
+<h2>17. Changes</h2>
 <p>We update this privacy policy when the app or the legal situation changes. The version shown in the app applies.</p>
 </section>
   </main>
